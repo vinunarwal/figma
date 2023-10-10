@@ -1,0 +1,413 @@
+.header{
+    display: flex;
+}
+.arrow{
+padding-top: 11px;
+}
+.navbar{
+    display: flex;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+}
+.navbar ul{
+    display: flex;
+    padding-left: 100px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400px;
+    color: white;
+}
+.btn{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+ #btn_1{
+    padding: 10px 20px;
+    background-color: rgba(255, 228, 146, 1);
+    color: rgb(55, 48, 114);
+    border: none;
+    border-radius: 6px;
+    width: 80px;
+}
+.btn_2{
+    padding: 0px 0px 10px 10px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 190px;
+    margin-left: 5px;
+}
+.rarrow{
+    padding-top: 10px;
+
+}
+.logo{
+    padding: 15px 0px 0px 50px;
+}
+/* section 1 */
+#div{
+    display: flex;
+    float: left;
+    padding: 57px 0px 60px 100px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+    background-image: url(element\ 1.png);
+}
+#h1{
+    font-size: 40px;
+    font-weight: 1000px;
+}
+#img1{
+    height: 300px;
+    width: 450px;
+    padding-left: 50px;
+}
+
+/* section 2 */
+
+.sec2{
+    display: flex;
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-image: url(sec2img.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#img2{
+    height: 250px;
+    width: 380px;
+}
+.element{
+    position: relative;
+}
+.down{
+    position: absolute;
+    margin-top: -50px;
+    z-index: -2;
+}
+.down img{
+    width: 300px;
+}
+.s2{
+    padding-left: 50px;
+}
+.btn_3{
+    padding: 0px 0px 10px 10px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+/* Section 3 */
+
+.sec3{
+    display: flex;
+    float: left;
+    padding: 100px 0px 50px 100px;
+}
+.element2{
+    position: relative;
+}
+.down2{
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 89px;
+    z-index: -1;
+}
+.down2 img{
+    width: 193px;
+}
+.btn_4{
+    width: 140px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 0px 10px 10px;
+
+}
+.circle{
+    width: 350px;
+}
+.div2{
+    padding-left: 100px;
+}
+/* Section 4 */
+
+.sec4{
+    display: flex;
+    float: left;
+    padding: 100px 0px 70px 100px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+}
+.element4{
+    position: relative;
+}
+.down4{
+    position: absolute;
+    margin-top: -53px;
+    margin-left: 0px;
+    z-index: -1;
+}
+.down4 img{
+    width: 243px;
+    height: 40px;
+}
+.div3{
+    padding-left: 50px;
+}
+.btn_5{
+    width: 140px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 0px 10px 10px;
+}
+.img3{
+    height: 250px;
+    width: 380px;
+}
+/* Section 6 */
+.sec6{
+    float: left;
+    padding-top: 70px;
+    text-align: center;
+    padding-left: 300px; 
+}
+.s6{
+    display: flex;
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.element5{
+    position: relative;
+}
+.down5{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 290px;
+    z-index: -1;
+}
+.down5 img{
+    width: 200px;
+    height: 40px;
+}
+.d1{
+    padding: 20px 20px 0px 20px;
+    margin-top: 30px;
+    border: 2px solid rgba(255, 228, 146, 1);
+    border-radius: 8px;
+    height: 465px;
+    width: 320px;
+}
+.d2{
+    padding: 30px 10px 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(4, 56, 115, 1);
+    border: 2px solid rgba(4, 56, 115, 1);
+    border-radius: 8px;
+    color: white;
+    height: 500px;
+    width: 292px;
+}
+.btn_6{
+    width: 140px;
+    border: 2px solid rgba(255, 228, 146, 1);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.btn_7{
+    width: 140px;
+    background-color: rgba(79, 156, 249, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.mark{
+    width: 13px;
+}
+/* Section 7 */
+.sec7{
+    float: left;
+    margin-top: 80px;
+    padding: 80px 0px 80px 0px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-image: url(BACKGROUND3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/* Section 8 */
+.sec8{
+    display: flex;
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.imgsec8{
+    width: 450px;
+}
+.element6{
+    position: relative;
+}
+.down6{
+    position: absolute;
+    margin-top: -56px;
+    margin-left: 85px;
+    z-index: -1;
+}
+.down6 img{
+    width: 207px;
+    height: 42px;
+}
+/* Section 9 */
+.h1{
+    text-align: center;
+    font-size: 40px;
+}
+.sec9 {
+    float: left;
+    padding-top: 100px;
+}
+.sec9 ul{
+    display: flex;
+}
+.sec9 li{
+    list-style: none;
+    justify-content: space-around;
+}
+.sec9 img{
+padding: 90px;
+}
+.apple{
+    height: 50px;
+}
+.logos{
+    width: 150px;
+}
+/* Section 10 */
+.sec10{
+    float: left;
+    display: flex;
+    padding: 60px 50px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+    background-image: url(sec10.png);
+}
+.sec10 img{
+    width: 350px;
+    padding-top: 20px;
+}
+.sec10 div{
+    padding-left: 50px;
+}
+.sec10 h1{
+    font-size: 40px;
+}
+/* Section 11 */
+.sec11{
+    padding: 50px 0px;
+    float: left;
+}
+.sec11 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 50px;
+}
+.client{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+}
+.quote1{
+    box-shadow: 10px 15px 30px rgb(0,0,0,0.2);
+    border: none;
+    border-radius: 5px;
+    width: 340px;
+    height: 370px;
+    padding: 0px 15px;
+}
+.client img{
+    width: 50px;
+    padding-top: 50px;
+    height: 35px;
+}
+.d4{
+    padding: 0px 15px;
+    margin-left: 20px;
+    background-color: rgba(79, 156, 249, 1);
+    border-radius: 8px;
+    color: white;
+    width: 315px;
+    height: 370px;
+}
+.avtar{
+    display: flex;
+    padding: 10px;
+}
+.avt{
+    padding: 10px;
+}
+/* Section 12 */
+.sec12{
+    float: left;
+    padding-top: 50px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.sec12 ul{
+    display: flex;
+    justify-content: center;
+}
+.sec12 li{
+    padding: 20px;
+    list-style: none;
+}
+.bottom{
+    display: flex;
+    float: left;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+.foot{
+    display: flex;
+    float: left;
+    padding-top: 50px;
+    background-color: rgba(4, 56, 115, 1);
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+.foot ul{
+    display: flex;
+}
+.foot li{
+    list-style: none;
+    padding: 0px 20px;
+}
